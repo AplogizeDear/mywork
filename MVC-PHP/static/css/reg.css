@@ -1,0 +1,90 @@
+body{
+    position:relative;
+}
+.login{
+    position:absolute;left:0;top:0;width:1349px;height:638px;
+    background-image:url("../img/500076869.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;}
+.main{width:300px;height:493px;background:#fff;padding:50px;
+    padding-bottom: 30px;position:absolute;top:0;right:0;left:0;bottom:0;
+    margin:auto;}
+.title{width:280px;height:19px;padding:10px;margin-bottom: 50px;}
+.style-title{width:280px;height:19px;text-align:center;
+    font-weight:700;}
+.active{padding:10px;border-bottom:2px solid #ea6f5a;color:#ea6f5a;}
+b{margin-bottom: 5px;}
+.reg{padding:10px;height:19px;color:#969696;}
+.reg:hover{border-bottom: 2px solid #ea6f5a;}
+.content{width:300px;height:374px;}
+/*用户*/
+.user{width:300px;height:50px;position:relative;}
+.user input{width:251px;height:41px;padding:4px 12px 4px 35px;
+    border:1px solid #8c8c8c;border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom:none;outline: none;}
+.user .icon-denglu{position:absolute;top:14px;
+    left:10px;font-size: 18px;color:#969696;}
+/*手机号*/
+.phone{width:300px;height:50px;position:relative;background:pink;}
+.phone input{width:251px;height:41px;padding:4px 12px 4px 35px;
+    border:1px solid #8c8c8c;
+    border-bottom:none;outline: none;}
+.phone .icon-shoujihao{position:absolute;top:16px;
+    left:10px;font-size: 18px;color:#969696;}
+/*密码*/
+.pass{width:300px;height:50px;
+    position: relative;margin-bottom: 20px;}
+.pass input{width:251px;height:41px;padding:4px 12px 4px 35px;
+    border:1px solid #8c8c8c;border-bottom-left-radius: 4px;outline: none;
+    border-bottom-right-radius: 4px;}
+.pass .icon-mima-copy{position:absolute;top:17px;
+    left:10px;font-size: 18px;color:#969696;}
+.com{width: 100%;padding: 9px 18px;font-size: 18px;border: none;
+    border-radius: 25px;color: #fff;
+    background: #42c02e;cursor: pointer;outline: none;
+    display: block;clear: both;}
+.com:hover{background:#3db922;}
+.xieyi{width:300px;height:40px;margin:13px 0;
+    text-align: center;font-size: 12px;line-height:1;}
+.xieyi a{font-size: 12px;padding:0 3px;color:#3194d0;}
+.xieyi p{font-size: 12px;margin-top: 5px;color:#969696;}
+.more{width:300px;height:83px;margin-top: 30px}
+h6{position: relative;margin: 0 0 20px;font-size: 12px;color: #b5b5b5;
+    text-align: center;line-height:1.1;}
+h6::before{  content: "";border-top: 1px solid #b5b5b5;display: block;
+    position: absolute;width: 60px;top: 5px;right:30px;}
+h6::after{  content: "";border-top: 1px solid #b5b5b5;display: block;
+    position: absolute;width: 60px;top: 5px;left:30px;}
+.more ul{width:190px;height:50px;
+    display: flex;justify-content: space-around;justify-items:center;margin-left:45px;}
+.more ul li{width:50px;height:50px;background:red;border-radius: 50%;}
+.more ul li:nth-child(1){background:#e05244;}
+.more ul li:nth-child(2){background:#00bb29;}
+.more ul li:nth-child(3){background:#498ad5;}
+.more ul li:nth-child(4){background:hsla(0,0%,71%,.2);}
+.more ul li a{
+    display: block;width:50px;height:50px;border-radius: 50%;text-align: center;
+    line-height:50px;}
+.more ul li a .icon-weibo{font-size: 23px;color:#fff;}
+.more ul li a .icon-weixin{font-size: 23px;color:#fff;}
+.more ul li a .icon-qq{font-size: 23px;color:#fff;}
+#user-error{width:200px;height:38px;position:absolute;
+    left:312px;top:5px;border:1px solid #ea6f5a;color:#333;text-align: center;
+    line-height: 38px;font-size: 14px;background: #fff6f8;display:none;
+    padding:0 10px 0 10px;
+}
+#phone-error{width:200px;height:38px;position:absolute;
+    left:312px;top:5px;border:1px solid #ea6f5a;color:#333;text-align: center;
+    line-height: 38px;font-size: 14px;background: #fff6f8;display:none;
+    padding:0 10px 0 10px;
+}
+#password-error{width:200px;height:38px;position:absolute;
+    left:312px;top:5px;border:1px solid #ea6f5a;color:#333;text-align: center;
+    line-height: 38px;font-size: 14px;background: #fff6f8;display:none;
+    padding:0 10px 0 10px;
+}
+
+
+
+

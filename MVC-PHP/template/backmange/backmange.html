@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="dist/js/jquery-3.2.1.js"></script>
+<script src="dist/js/bootstrap.min.js"></script>
+<title>Document</title>
+</head>
+<style>
+    *{
+        text-decoration: none;
+    }
+    a{
+        color:blue;
+    }
+    .box{
+        width:1096px;
+        height:596px;
+        background:url("img/503225.jpg") no-repeat;
+        background-size: cover;
+        border:2px solid #ff6700;
+        margin:30px auto;
+        box-shadow: 1px 10px 10px #ff6700;
+    }
+    .top{
+        width:1096px;
+        height:88px;
+        font-size: 35px;
+        border-bottom:2px solid #fff;
+        color:#fff;
+        position: relative;
+    }
+    .top .welcome{
+        width:100px;
+        height:100px;
+        line-height:88px;
+        margin-left: 50px;
+    }
+    .top .aname{
+        display: block;
+        position: absolute;
+        right:200px;
+        top:30px;
+        font-size:25px;
+        color: rgba(255,255,255,0.5);
+    }
+    .top .myphoto{
+        width:50px;
+        height:50px;
+        background: #ff6700;
+        border-radius: 50%;
+        position: absolute;
+        right:100px;
+        top:20px;
+        cursor: pointer;
+    }
+    .top .aname:hover{
+        /*z-index: 8;*/
+        color: rgba(255,255,255,1);
+
+    }
+    .top .manger{
+        display: block;
+        color: #aa2795;
+        position:absolute;
+        right:270px;
+        top:30px;
+        font-size: 25px;
+    }
+    .left{
+        width:200px;
+        height:506px;
+        border-right:1px solid #fff;
+        float: left;
+        color: #fff;
+    }
+    .right{
+        width:100%;
+        height:100%;
+    }
+    iframe{
+        width:895px;
+        height:506px;
+    }
+    .left span{
+        display: block;
+        margin-left: -25px;
+        margin-bottom: 10px;
+    }
+    .top a{
+        display: block;
+        position: absolute;
+        right:10px;
+        bottom:10px;
+        font-size: 15px;
+        color:#2296d0;
+    }
+    .found li{
+        margin-bottom: 8px;
+    }
+</style>
+<body>
+<div class="box">
+    <div class="top">
+        <span class="welcome">欢迎进入后台管理系统</span>
+        <a href="back.php">安全退出</a>
+        <span class="manger">管理员:</span><span class="aname"><?php echo $row["aname"]?></span>
+        <span class="myphoto" style="background-image: url(<?php echo $url?>);background-size: cover;">
+               </span>
+    </div>
+    <div class="bot">
+        <div class="left">
+            <ul class="found">
+                <span>管理员权限</span>
+                <li><a href="table.php" target="right">用户查找</a></li>
+                <li><a href="adduser.php" target="right">添加用户</a></li>
+            </ul>
+            <ul class="introduce">
+                <span>分类管理</span>
+                <li><a href="look.php" target="right">查看分类</a></li>
+                <li><a href="class.php" target="right">添加分类</a></li>
+            </ul>
+            <ul class="inner">
+                <span>内容管理</span>
+                <li><a href="lookinner.php" target="right">查看内容</a></li>
+                <li><a href="addinner.php" target="right">添加内容</a></li>
+            </ul>
+            <ul class="inner">
+                <span>其他分类管理</span>
+                <li><a href="lookother.php" target="right">查看其他分类</a></li>
+                <li><a href="addother.php" target="right">添加其他分类</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <iframe src="" frameborder="0" name="right"></iframe>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

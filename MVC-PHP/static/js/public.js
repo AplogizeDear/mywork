@@ -1,0 +1,11 @@
+$(function(){
+    $('.login-block').css({"display":"none"});
+    $('.head-p').css({"display":"block"}).hover(
+        function(){
+            $('.drop-menu').css({"display":"block"}
+            );
+        },function(){
+            $('.drop-menu').css({"display":"none"}
+            );
+        })
+})

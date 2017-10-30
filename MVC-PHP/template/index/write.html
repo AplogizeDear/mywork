@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{CSS_URL}/public.css">
+    <link rel="stylesheet" href="{CSS_URL}/write.css">
+    <script src="{EDITOR_URL}/ueditor.all.js"></script>
+    <script src="{EDITOR_URL}/ueditor.config.js"></script>
+    <script src="{EDITOR_URL}/ueditor.all.js"></script>
+    <title>写文章页面</title>
+</head>
+<body>
+
+<div class="expansion">
+    <div class="exp-left">
+            <a href="index.php?m=index&f=index&a=init" class="back"><span>回首页</span></a>
+            <div class="net-book">
+                <a href="javascript:;" class="new">+ 新建文集</a>
+            </div>
+            <ul class="note-list">
+                <li><a href="" class="daily">日记本</a></li>
+                <li><a href="" class="daily">随笔</a></li>
+            </ul>
+    </div>
+    <div class="exp-middle">
+        <div class="cont">
+            <div class="bb">
+                <img src="{IMG_URL}/book.jpg" alt="">
+            </div>
+        </div>
+        <h5>在此处添加标题</h5>
+    </div>
+    <form action="index.php?m=index&f=index&a=submit" method="post">
+    <div class="exp-right">
+        <input type="text" placeholder="标题" name="title">
+        <script id="container" name="content" type="text/plain" id="editor">
+            初始化的内容
+        </script>
+        <script type="text/javascript">
+            var ue = UE.getEditor('container');
+        </script>
+        <button type="submit" id="sum">内容完成后提交</button>
+    </div>
+    </form>
+</div>
+
+</body>
+</html>

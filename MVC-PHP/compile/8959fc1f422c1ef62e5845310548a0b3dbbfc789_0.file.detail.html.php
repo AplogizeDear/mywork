@@ -1,0 +1,245 @@
+<?php
+/* Smarty version {Smarty::SMARTY_VERSION}, created on 2017-10-27 07:54:58
+  from "D:\wamp64\www\MVC-PHP\template\index\detail.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.32-dev-23',
+  'unifunc' => 'content_59f2e652514479_88304956',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '8959fc1f422c1ef62e5845310548a0b3dbbfc789' => 
+    array (
+      0 => 'D:\\wamp64\\www\\MVC-PHP\\template\\index\\detail.html',
+      1 => 1509090895,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_59f2e652514479_88304956 (Smarty_Internal_Template $_smarty_tpl) {
+?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="<?php echo CSS_URL;?>
+/iconfont.css">
+    <link rel="stylesheet" href="<?php echo CSS_URL;?>
+/public.css">
+    <link rel="stylesheet" href="<?php echo CSS_URL;?>
+/detail.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_URL;?>
+/jquery.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_URL;?>
+/public.js"><?php echo '</script'; ?>
+>
+    <title>详情页</title>
+</head>
+<body>
+<div class="fill"></div>
+<header>
+    <nav>
+        <a href="index.php?m=index&f=index&a=init"><img src="<?php echo IMG_URL;?>
+/logo.png" alt="logo">
+        </a>
+        <div class="middle">
+            <ul class="mi-left">
+                <li><a href="index.php?m=index&f=index&a=init">发现</a></li>
+                <li><a href="index.php?m=index&f=index&a=follow">关注</a></li>
+                <li><a href="index.php?m=index&f=index&a=message">消息</a></li>
+                <li class="search">
+                    <form action="">
+                        <input type="text" name="q" value="" autocomplete="off" placeholder="搜索"
+                               class="search-input">
+                        <a href="" class="s-btn"><i class="iconfont icon-sousuo"></i></a>
+                    </form>
+                </li>
+            </ul>
+            <div class="mi-right">
+                <div class="head-p">
+                    <div id="triangle-up"></div>
+                    <img src="<?php echo IMG_URL;?>
+/header-2" alt="">
+                    <ul class="drop-menu" style="z-index:999;">
+                        <li><a href="index.php?m=index&f=index&a=person">我的主页</a></li>
+                        <li><a href="index.php?m=index&f=index&a=collect">收藏的文章</a></li>
+                        <li><a href="index.php?m=index&f=index&a=love">喜欢的文章</a></li>
+                        <li><a href="index.php?m=index&f=index&a=price">我的钱包</a></li>
+                        <li><a href="index.php?m=index&f=index&a=set">设置</a></li>
+                        <li><a href="index.php?m=index&f=index&a=back">退出</a></li>
+                    </ul>
+                </div>
+                <a href="" class="night">Aa</a>
+            </div>
+        </div>
+        <a href="index.php?m=index&f=index&a=write" class="write"><i class="iconfont icon-write"></i>写文章</a>
+    </nav>
+</header>
+<div class="note">
+<div class="post">
+<div class="article">
+    <h1 class="title">我的诗和远方里，再无你</h1>
+    <div class="author">
+        <a href="" class="head-photo">
+            <img src="" alt="">
+        </a>
+        <div class="info">
+            <div class="info-top">
+            <span class="nick"><a href="">与君成悦</a></span>
+            <img src="<?php echo IMG_URL;?>
+/sign.png" alt="简书签约作者">
+                <a href="" class="about">
+                    +关注
+                </a>
+            </div>
+            <div class="info-bot">
+                <span class="time">2017.10.22 06:56*</span>
+                <span class="wordnum">字数 4802</span>
+                <span class="readnum">阅读 14517</span>
+                <span class="discussnum">评论 358</span>
+                <span class="likenum">喜欢 794</span>
+                <span class="admirenum">赞赏 20</span>
+            </div>
+        </div>
+    </div>
+    <div class="show-content">
+        <p>不知道从何时起，苟且成了平凡、努力生活的代名词。每当在朋友圈看到你发帕劳的
+            大海，他发希腊的蔷薇，你在西藏的米拉山口挥舞着红丝巾，他在海南的深海中悠
+            闲地潜着水。。。碌碌如我辈，一边读着论述苟且、诗和远方的文章，一边回望
+            自己为柴米油盐奔忙的身影，便不由得心生愧意，仿佛那无情的鞭挞每一下都抽在
+            心上，渐渐地，朋友圈也很少刷屏了。只做一个潜伏者，看别人的苟且或诗和远方
+            。
+        </p>
+    </div>
+    <div class="footer">
+        <i class="iconfont icon-wenzhang"></i>
+        <a href="" class="diary">日记本</a>
+        <div class="right">
+            © 著作权归作者所有
+        </div>
+    </div>
+    <div class="wri-detail">
+        <div class="info">
+            <a href="" class="tou"><img src="<?php echo IMG_URL;?>
+/tou-1.jpg" alt=""></a>
+            <div class="detail">
+                <a href="" class="nickname">潇洒小兔</a>
+                <p>写了 213800 字，被 4305 人关注，获得了 7194 个喜欢</p>
+            </div>
+            <a href="" class="follow">+ 关注</a>
+        </div>
+        <div class="in-bot">
+            <p>写走心文字，仗笔走天涯。我只想温暖你一个人，别无所求。
+                （文章首发在微信公众号：一克心语，微博@潇洒小兔0）
+                欢迎约稿，索白请私信。</p>
+        </div>
+    </div>
+    <div class="support-author">
+            <p>我只希望能温暖到你</p>
+            <div class="favor">赞赏支持</div>
+    </div>
+    <div class="bottom">
+        <div class="like">
+            <div class="like-left">
+                喜欢
+            </div>
+            <div class="like-right">
+                <a>475</a>
+            </div>
+        </div>
+        <div class="right">
+
+        </div>
+    </div>
+    <div class="comment-list">
+        <form action="" class="new-comment">
+            <a href="" class="imgbox"><img src="<?php echo IMG_URL;?>
+/tou-1.jpg" alt=""></a>
+            <textarea placeholder="请写下你的评论" name="" id="text" cols="30" rows="10"></textarea>
+            <div class="write-block">
+                <div class="emoji">
+                </div>
+                <div class="hint">Ctrl+Return 发表</div>
+                <a class="btn btn-send">发送</a>
+                <a class="cancel">取消</a>
+            </div>
+        </form>
+    </div>
+    <div class="com-list">
+        <div class="main">
+            <div class="main-top">
+                <span>209条评论</span>
+                <a class="author-only">只看作者</a>
+            </div>
+            <div class="main-bottom">
+                <div class="com-ele">
+                    <div class="author">
+                        <a href="" class="touimg"><img src="<?php echo IMG_URL;?>
+/tou-1.jpg" alt=""></a>
+                        <div class="info">
+                            <a href="" class="name">梦若星尘</a>
+                            <div class="meta">
+                                <span>17楼 · 2017.10.25 12:36</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner">
+                        <p>我从来不借钱💰有多少用多少，量力而行,我从来不借钱💰有多少用多少，量力而行
+                            我从来不借钱💰有多少用多少，量力而行
+                            我从来不借钱💰有多少用多少，量力而行我从来不借钱💰有多少用多少，量力而行</p>
+                    </div>
+                    <div class="love">
+                        <a class="hits">
+                            <span>8人点赞</span>
+                        </a>
+                        <a class="report">
+                            <span>回复</span>
+                        </a>
+                    </div>
+                    <div class="pinglun">
+                        <div class="pingbox">
+                            <div class="ping-top">
+                                <p><a href="">拉格冷日天:</a>
+                                <span><a href="">@梦若星尘</a>存款呢?</span>
+                                </p>
+                            </div>
+                            <div class="ping-bot">
+                                <span>2017.10.26 07:56</span>
+                                <a href="" class=repo><span class="repo">回复</span></a>
+                            </div>
+                        </div>
+                        <a class="add-btn">
+                            <span>添加新评论</span>
+                        </a>
+                        <form action="" class="new-comment">
+                            <textarea placeholder="请写下你的评论" name="" id="text-one" cols="30" rows="10"></textarea>
+                            <div class="write-block-one">
+                                <div class="emoji">
+                                </div>
+                                <div class="hint">Ctrl+Return 发表</div>
+                                <a class="btn btn-send">发送</a>
+                                <a class="cancel">取消</a>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html><?php }
+}

@@ -1,0 +1,13 @@
+/*对显示栏的控制*/
+.display{
+    width:100%;
+    height:100%;
+}
+.display iframe{
+    width:100%;height:100%;background:#fff;
+}
+/*  对addadmin的控制*/
+.test{
+    width:100%;
+    height:1000px;
+}
